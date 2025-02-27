@@ -1,0 +1,348 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 61,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 5,
+      "column": 18
+    }
+  },
+  "range": [
+    0,
+    61
+  ],
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 4
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "range": [
+            4,
+            12
+          ],
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 7,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 4
+              },
+              "end": {
+                "line": 1,
+                "column": 7
+              }
+            },
+            "range": [
+              4,
+              7
+            ],
+            "name": "foo"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 10,
+            "end": 12,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 10
+              },
+              "end": {
+                "line": 1,
+                "column": 12
+              }
+            },
+            "range": [
+              10,
+              12
+            ],
+            "value": 42,
+            "raw": "42"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 15,
+      "end": 28,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      "range": [
+        15,
+        28
+      ],
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 19,
+          "end": 27,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 4
+            },
+            "end": {
+              "line": 2,
+              "column": 12
+            }
+          },
+          "range": [
+            19,
+            27
+          ],
+          "id": {
+            "type": "Identifier",
+            "start": 19,
+            "end": 22,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 4
+              },
+              "end": {
+                "line": 2,
+                "column": 7
+              }
+            },
+            "range": [
+              19,
+              22
+            ],
+            "name": "bar"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 25,
+            "end": 27,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 10
+              },
+              "end": {
+                "line": 2,
+                "column": 12
+              }
+            },
+            "range": [
+              25,
+              27
+            ],
+            "value": 10,
+            "raw": "10"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 30,
+      "end": 39,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 9
+        }
+      },
+      "range": [
+        30,
+        39
+      ],
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 30,
+        "end": 38,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 8
+          }
+        },
+        "range": [
+          30,
+          38
+        ],
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 30,
+          "end": 33,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 3
+            }
+          },
+          "range": [
+            30,
+            33
+          ],
+          "name": "bar"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 36,
+          "end": 38,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 6
+            },
+            "end": {
+              "line": 3,
+              "column": 8
+            }
+          },
+          "range": [
+            36,
+            38
+          ],
+          "value": 20,
+          "raw": "20"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 43,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 18
+        }
+      },
+      "range": [
+        43,
+        61
+      ],
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 47,
+          "end": 60,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4
+            },
+            "end": {
+              "line": 5,
+              "column": 17
+            }
+          },
+          "range": [
+            47,
+            60
+          ],
+          "id": {
+            "type": "Identifier",
+            "start": 47,
+            "end": 50,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 7
+              }
+            },
+            "range": [
+              47,
+              50
+            ],
+            "name": "baz"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 53,
+            "end": 60,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 10
+              },
+              "end": {
+                "line": 5,
+                "column": 17
+              }
+            },
+            "range": [
+              53,
+              60
+            ],
+            "value": "Hello",
+            "raw": "\"Hello\""
+          }
+        }
+      ],
+      "kind": "let"
+    }
+  ],
+  "sourceType": "module"
+}
